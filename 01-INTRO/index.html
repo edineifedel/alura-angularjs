@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt" ng-app="Hello">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World</title>
+</head>
+<body ng-controller="HelloController">
+	<button ng-click="clicar()">Clicar</button>
+	<label>Você clicou: {{total}} veze(s)</label>
+
+	<div ng-controller="FooterController">
+		{{copyright}}
+	</div>
+</body>
+
+ <script src="js/angular.min.js"></script>
+ <script src="js/main.js"></script>
+ <script src="js/hello_controller.js"></script>
+ <script src="js/footer.js"></script>
+</html>
